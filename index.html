@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Alides — Executive Search et Conseil aux Conseils en France</title>
+<meta name="description" content="Alides conseille les conseils d'administration, actionnaires familiaux, dirigeants et fonds sur les nominations sensibles, la succession et la gouvernance. Recherche par mandat, menée par un associé, en confidentialité. Membre d'ECI Group et de l'AESC.">
+<link rel="canonical" href="https://fr.alides.org/">
+<meta name="robots" content="index,follow">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Alides">
+<meta property="og:title" content="Alides — Executive Search et Conseil aux Conseils en France">
+<meta property="og:description" content="Nommer un dirigeant n'est pas pourvoir un poste. Le conseil aux conseils, la succession et les nominations sensibles, conduits par mandat et en confidentialité.">
+<meta property="og:url" content="https://fr.alides.org/">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:image" content="https://fr.alides.org/assets/og-alides-france.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Alides — Executive Search et Conseil aux Conseils en France">
+<meta name="twitter:description" content="Conseil aux conseils, succession et nominations sensibles de dirigeants, par mandat et en confidentialité. Membre d'ECI Group et de l'AESC.">
+<meta name="twitter:image" content="https://fr.alides.org/assets/og-alides-france.jpg">
+
+<link rel="alternate" hreflang="fr" href="https://fr.alides.org/">
+<link rel="alternate" hreflang="en" href="https://qa.alides.org/">
+<link rel="alternate" hreflang="x-default" href="https://www.alides.org/">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ProfessionalService",
+  "name":"Alides",
+  "description":"Executive search et conseil aux conseils : nominations sensibles de dirigeants, succession, composition des conseils et gouvernance des entreprises familiales, pour les conseils d'administration, actionnaires et fonds en France.",
+  "url":"https://fr.alides.org/",
+  "email":"contact@eci-alides.com",
+  "telephone":"+33 6 95 39 04 61",
+  "address":{"@type":"PostalAddress","streetAddress":"32 boulevard de Strasbourg","postalCode":"75010","addressLocality":"Paris","addressCountry":"FR"},
+  "areaServed":[{"@type":"Country","name":"France"},{"@type":"Place","name":"Europe"},{"@type":"Place","name":"Afrique"},{"@type":"Place","name":"Moyen-Orient"}],
+  "knowsLanguage":["fr","en","ar"],
+  "parentOrganization":{"@type":"Organization","name":"ECI Group","url":"https://eci-group.org/"},
+  "memberOf":{"@type":"Organization","name":"AESC — Association of Executive Search and Leadership Consultants","url":"https://www.aesc.org/"},
+  "serviceType":["Executive Search","Conseil aux conseils","Succession de dirigeants","Gouvernance des entreprises familiales","Évaluation de dirigeants","Advisory Board"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Jost:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#142036;--navy-deep:#0e1727;--gold:#c6a157;--gold-soft:#d8bd83;
+    --ivory:#f7f5f2;--paper:#fcfbf9;--ink:#1c2536;--muted:#727c8c;
+    --line:rgba(28,37,54,.12);--line-d:rgba(247,245,242,.14);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'EB Garamond',Georgia,serif;color:var(--ink);background:var(--paper);line-height:1.75;-webkit-font-smoothing:antialiased;font-size:19px}
+  h1,h2,h3{font-weight:500;letter-spacing:.004em}
+  ::selection{background:var(--navy);color:var(--ivory)}
+  .label{font-family:'Jost',sans-serif;font-weight:400;letter-spacing:.3em;text-transform:uppercase;font-size:.66rem}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 40px}
+  a{color:inherit}
+  .eyebrow{color:var(--gold);display:block;margin-bottom:30px}
+
+  /* HEADER */
+  header{position:fixed;top:0;left:0;right:0;z-index:100;background:transparent;transition:background .5s,padding .5s;padding:32px 0}
+  header.scrolled{background:rgba(252,251,249,.92);backdrop-filter:blur(10px);padding:17px 0;border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between}
+  .brand{font-family:'EB Garamond',serif;font-size:1.7rem;font-weight:500;letter-spacing:.04em;text-decoration:none;transition:color .3s}
+  header:not(.scrolled) .brand{color:var(--ivory)}
+  header.scrolled .brand{color:var(--ink)}
+  .menu{display:flex;gap:38px;align-items:center}
+  .menu a{font-family:'Jost',sans-serif;font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;transition:color .25s;font-weight:300}
+  header:not(.scrolled) .menu a{color:rgba(247,245,242,.8)}
+  header.scrolled .menu a{color:var(--muted)}
+  .menu a:hover{color:var(--gold)}
+  .menu a.req{color:var(--gold-soft)}
+  header.scrolled .menu a.req{color:var(--gold)}
+  .burger{display:none;flex-direction:column;gap:5px;cursor:pointer}
+  .burger span{width:24px;height:1.5px;transition:background .3s}
+  header:not(.scrolled) .burger span{background:var(--ivory)}
+  header.scrolled .burger span{background:var(--ink)}
+
+  /* HERO */
+  .hero{min-height:100vh;display:flex;align-items:flex-end;position:relative;background:var(--navy);overflow:hidden}
+  .hero .bg{position:absolute;inset:0;background-image:url('assets/hero-paris.jpg');background-size:cover;background-position:center 26%;z-index:0;animation:slowzoom 22s ease-out forwards}
+  @keyframes slowzoom{from{transform:scale(1.06)}to{transform:scale(1)}}
+  .hero::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(14,23,39,.60) 0%,rgba(14,23,39,.72) 46%,rgba(14,23,39,.94) 100%)}
+  .hero::after{content:"";position:absolute;left:40px;bottom:50px;width:40px;height:1px;background:var(--gold);opacity:.7;z-index:3}
+  .hero-inner{position:relative;z-index:2;width:100%;max-width:1100px;margin:0 auto;padding:0 40px 124px}
+  .hero .kicker{color:var(--gold-soft);margin-bottom:40px;opacity:0;animation:rise 1s .15s forwards}
+  .hero h1{font-size:clamp(2.1rem,4vw,3.5rem);color:var(--ivory);line-height:1.26;font-weight:400;max-width:18ch;margin-bottom:30px;opacity:0;animation:rise 1.1s .4s forwards}
+  .hero h1 em{font-style:italic;color:var(--gold-soft)}
+  .hero .sub{font-size:1.14rem;color:rgba(247,245,242,.82);max-width:52ch;margin-bottom:46px;opacity:0;animation:rise 1.1s .65s forwards;line-height:1.7}
+  .hero .acts{display:flex;gap:30px;align-items:center;flex-wrap:wrap;opacity:0;animation:rise 1s .95s forwards}
+  .hero .acts a{font-family:'Jost',sans-serif;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;font-weight:300}
+  .hero .acts .primary{color:var(--navy-deep);background:var(--gold);padding:15px 30px;transition:background .3s}
+  .hero .acts .primary:hover{background:var(--gold-soft)}
+  .hero .acts .ghost{color:var(--ivory);border-bottom:1px solid var(--gold);padding-bottom:7px;transition:color .3s}
+  .hero .acts .ghost:hover{color:var(--gold-soft)}
+  @keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+
+  section{padding:132px 0}
+
+  /* PREMISE */
+  .premise{background:var(--paper)}
+  .premise .lead{font-size:clamp(1.5rem,2.5vw,2.05rem);line-height:1.5;color:var(--navy);font-weight:400;max-width:20ch}
+  .premise .lead em{font-style:italic;color:var(--gold)}
+  .premise .body{margin-top:54px;display:grid;grid-template-columns:1fr 1fr;gap:58px}
+  .premise .body p{font-size:1.07rem;color:var(--ink);line-height:1.8}
+
+  /* WHY FRANCE */
+  .why{background:var(--ivory)}
+  .why .lead{font-size:clamp(1.4rem,2.3vw,1.9rem);line-height:1.45;color:var(--navy);max-width:24ch;margin-bottom:18px}
+  .why .lead em{font-style:italic;color:var(--gold)}
+  .why .intro{font-size:1.08rem;color:var(--muted);max-width:58ch;margin-bottom:62px}
+  .why-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 70px}
+  .why-row{display:grid;grid-template-columns:30px 1fr;gap:22px;padding:26px 0;border-top:1px solid var(--line);align-items:baseline}
+  .why-row .k{font-family:'Jost',sans-serif;font-size:.72rem;letter-spacing:.12em;color:var(--gold)}
+  .why-row h3{font-size:1.14rem;color:var(--navy);margin-bottom:6px;font-weight:500}
+  .why-row p{font-size:1.02rem;color:var(--muted);line-height:1.68}
+  .why-base{margin-top:56px;padding-top:34px;border-top:1px solid var(--line);display:flex;gap:54px;flex-wrap:wrap}
+  .why-base .item{flex:1;min-width:200px}
+  .why-base .item .t{font-family:'Jost',sans-serif;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+  .why-base .item p{font-size:1.02rem;color:var(--ink);line-height:1.7}
+
+  /* CONVICTION */
+  .conviction{background:var(--navy);color:var(--ivory)}
+  .conviction .eyebrow{color:var(--gold-soft)}
+  .conviction .statement{font-size:clamp(1.45rem,2.4vw,1.95rem);line-height:1.5;font-weight:400;max-width:25ch;color:var(--ivory)}
+  .conviction .statement em{font-style:italic;color:var(--gold-soft)}
+  .conviction .three{margin-top:76px;display:grid;grid-template-columns:repeat(3,1fr);gap:52px}
+  .conviction .three .n{font-family:'Jost',sans-serif;font-size:.7rem;letter-spacing:.2em;color:var(--gold-soft);margin-bottom:18px;display:block}
+  .conviction .three h3{font-size:1.18rem;color:var(--ivory);margin-bottom:14px;font-weight:500;line-height:1.35}
+  .conviction .three p{font-size:1rem;color:rgba(247,245,242,.66);line-height:1.7}
+
+  /* SITUATIONS */
+  .situations{background:var(--paper)}
+  .situations .lead{font-size:clamp(1.4rem,2.3vw,1.9rem);line-height:1.45;color:var(--navy);max-width:22ch;margin-bottom:18px}
+  .situations .lead em{font-style:italic;color:var(--gold)}
+  .situations .intro{font-size:1.08rem;color:var(--muted);max-width:56ch;margin-bottom:60px}
+  .sit-list{border-top:1px solid var(--line)}
+  .sit-row{display:grid;grid-template-columns:.4fr .6fr;gap:42px;padding:32px 0;border-bottom:1px solid var(--line);align-items:baseline;transition:padding-left .35s}
+  .sit-row:hover{padding-left:10px}
+  .sit-row h3{font-size:1.28rem;color:var(--navy);font-weight:500}
+  .sit-row p{font-size:1.03rem;color:var(--muted);line-height:1.7}
+
+  /* METHOD */
+  .method{background:var(--ivory)}
+  .method .lead{font-size:clamp(1.4rem,2.3vw,1.9rem);line-height:1.45;color:var(--navy);max-width:24ch;margin-bottom:18px}
+  .method .lead em{font-style:italic;color:var(--gold)}
+  .method .intro{font-size:1.08rem;color:var(--muted);max-width:56ch;margin-bottom:58px}
+  .m-step{display:grid;grid-template-columns:60px 1fr;gap:34px;padding:28px 0;border-top:1px solid var(--line);align-items:baseline}
+  .m-step:last-child{border-bottom:1px solid var(--line)}
+  .m-step .num{font-family:'Jost',sans-serif;font-size:.78rem;letter-spacing:.1em;color:var(--gold)}
+  .m-step h3{font-size:1.18rem;color:var(--navy);margin-bottom:7px;font-weight:500}
+  .m-step p{font-size:1.02rem;color:var(--muted);line-height:1.7}
+
+  /* OUTCOME */
+  .outcome{background:var(--navy);color:var(--ivory)}
+  .outcome .eyebrow{color:var(--gold-soft)}
+  .outcome .lead{font-size:clamp(1.45rem,2.4vw,1.95rem);line-height:1.5;max-width:24ch;color:var(--ivory);margin-bottom:64px}
+  .outcome .lead em{font-style:italic;color:var(--gold-soft)}
+  .out-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line-d);border:1px solid var(--line-d)}
+  .out{background:var(--navy);padding:34px 30px}
+  .out .n{font-family:'Jost',sans-serif;font-size:.68rem;letter-spacing:.18em;color:var(--gold-soft);margin-bottom:14px;display:block}
+  .out h3{font-size:1.12rem;color:var(--ivory);margin-bottom:10px;font-weight:500;line-height:1.35}
+  .out p{font-size:.98rem;color:rgba(247,245,242,.64);line-height:1.65}
+
+  /* PROOF */
+  .proof{background:var(--paper)}
+  .proof .lead{font-size:clamp(1.4rem,2.3vw,1.9rem);line-height:1.45;color:var(--navy);max-width:22ch;margin-bottom:18px}
+  .proof .lead em{font-style:italic;color:var(--gold)}
+  .proof .intro{font-size:1.08rem;color:var(--muted);max-width:58ch;margin-bottom:56px}
+  .pf-list{border-top:1px solid var(--line)}
+  .pf-row{display:grid;grid-template-columns:.3fr .7fr;gap:42px;padding:32px 0;border-bottom:1px solid var(--line);align-items:baseline}
+  .pf-row .meta{font-family:'Jost',sans-serif;font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);line-height:1.8}
+  .pf-row .meta .yr{color:var(--gold);display:block;margin-top:4px}
+  .pf-row .desc h3{font-size:1.16rem;color:var(--navy);font-weight:500;margin-bottom:7px}
+  .pf-row .desc p{font-size:1.02rem;color:var(--muted);line-height:1.7}
+  .proof .note{margin-top:44px;font-size:.98rem;color:var(--muted);font-style:italic;max-width:66ch}
+
+  /* CONTACT */
+  .contact{background:var(--navy-deep);color:var(--ivory)}
+  .contact .grid{display:grid;grid-template-columns:1fr 1fr;gap:84px;align-items:start}
+  .contact .eyebrow{color:var(--gold-soft)}
+  .contact h2{font-size:clamp(1.7rem,2.8vw,2.3rem);color:var(--ivory);line-height:1.3;font-weight:400;margin-bottom:26px}
+  .contact h2 em{font-style:italic;color:var(--gold-soft)}
+  .contact .lhs p{font-size:1.08rem;color:rgba(247,245,242,.72);max-width:40ch}
+  .contact .channels{margin-top:42px}
+  .contact .channels .ch{font-family:'Jost',sans-serif;font-size:.74rem;letter-spacing:.06em;color:rgba(247,245,242,.78);padding:14px 0;border-top:1px solid var(--line-d);display:block;text-decoration:none;transition:color .3s}
+  .contact .channels .ch:last-child{border-bottom:1px solid var(--line-d)}
+  .contact .channels .ch:hover{color:var(--gold-soft)}
+  .contact .channels .ch span{color:var(--gold-soft);margin-right:10px}
+  .contact .detail{margin-top:38px;font-family:'Jost',sans-serif;font-size:.72rem;letter-spacing:.08em;line-height:2.1;color:rgba(247,245,242,.55)}
+  .contact .detail a{color:var(--gold-soft);text-decoration:none}
+  form label{display:block;font-family:'Jost',sans-serif;font-size:.64rem;letter-spacing:.17em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:8px;margin-top:24px}
+  form input,form select,form textarea{width:100%;background:transparent;border:none;border-bottom:1px solid var(--line-d);color:var(--ivory);padding:11px 0;font-family:'EB Garamond',serif;font-size:1.05rem}
+  form select{padding:11px 0}
+  form select option{background:var(--navy-deep);color:var(--ivory)}
+  form input:focus,form select:focus,form textarea:focus{outline:none;border-color:var(--gold)}
+  form textarea{resize:vertical;min-height:64px}
+  form .send{margin-top:40px;font-family:'Jost',sans-serif;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--navy-deep);background:var(--gold);border:none;padding:16px 36px;cursor:pointer;transition:background .3s;font-weight:400}
+  form .send:hover{background:var(--gold-soft)}
+  .contact .pnote{margin-top:22px;font-size:.92rem;color:rgba(247,245,242,.5);font-style:italic}
+
+  /* FOOTER */
+  footer{background:var(--navy-deep);color:rgba(247,245,242,.55);padding:58px 0 34px;border-top:1px solid var(--line-d)}
+  .foot{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:30px}
+  .foot .brand-f{font-size:1.5rem;color:var(--ivory);font-weight:500;letter-spacing:.04em;margin-bottom:10px}
+  .foot .addr{font-family:'Jost',sans-serif;font-size:.72rem;letter-spacing:.07em;line-height:1.95;color:rgba(247,245,242,.5)}
+  .foot .addr a{color:rgba(247,245,242,.7);text-decoration:none}
+  .foot .links{font-family:'Jost',sans-serif;font-size:.72rem;letter-spacing:.13em;text-transform:uppercase;text-align:right;line-height:2.2}
+  .foot .links a{color:rgba(247,245,242,.55);text-decoration:none;transition:color .3s}
+  .foot .links a:hover{color:var(--gold-soft)}
+  .foot-base{margin-top:44px;padding-top:24px;border-top:1px solid var(--line-d);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-family:'Jost',sans-serif;font-size:.66rem;letter-spacing:.08em;color:rgba(247,245,242,.36)}
+
+  @media(max-width:880px){
+    .wrap,.hero-inner{padding-left:26px;padding-right:26px}
+    .hero-inner{padding-bottom:90px}
+    .menu{display:none}.burger{display:flex}
+    body{font-size:18px}
+    section{padding:84px 0}
+    .premise .body{grid-template-columns:1fr;gap:24px}
+    .why-grid{grid-template-columns:1fr;gap:0}
+    .why-base{flex-direction:column;gap:30px}
+    .conviction .three{grid-template-columns:1fr;gap:42px}
+    .sit-row,.pf-row{grid-template-columns:1fr;gap:10px}
+    .m-step{grid-template-columns:44px 1fr;gap:20px}
+    .out-grid{grid-template-columns:1fr}
+    .contact .grid{grid-template-columns:1fr;gap:52px}
+    .foot{flex-direction:column;align-items:flex-start}
+    .foot .links{text-align:left}
+    .hero .acts{gap:20px}
+  }
+</style>
+</head>
+<body>
+
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="/" class="brand">Alides</a>
+    <nav class="menu">
+      <a href="#premise">Le principe</a>
+      <a href="#why">Pourquoi Alides</a>
+      <a href="#situations">Situations</a>
+      <a href="#method">La méthode</a>
+      <a href="#proof">Missions</a>
+      <a href="#contact" class="req">Échange confidentiel</a>
+    </nav>
+    <div class="burger"><span></span><span></span><span></span></div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="bg"></div>
+  <div class="hero-inner">
+    <span class="label kicker">Executive Search · Conseil aux Conseils · France</span>
+    <h1>Nommer un dirigeant n'est pas pourvoir un poste. C'est <em>engager l'avenir</em>.</h1>
+    <p class="sub">Alides conseille les conseils d'administration, les actionnaires familiaux, les dirigeants et les fonds dans les nominations sensibles et les décisions de gouvernance qui se jugent dans la durée.</p>
+    <div class="acts">
+      <a href="#contact" class="primary">Solliciter un échange confidentiel</a>
+      <a href="#premise" class="ghost">Lire notre approche</a>
+    </div>
+  </div>
+</section>
+
+<!-- PREMISE -->
+<section class="premise" id="premise">
+  <div class="wrap">
+    <span class="label eyebrow">Le principe</span>
+    <p class="lead">La vacance n'est jamais le vrai sujet. La nomination révèle une <em>question de gouvernance</em>.</p>
+    <div class="body">
+      <p>Nommer un dirigeant, recomposer un comité exécutif ou faire entrer un administrateur engage le capital, la réputation et la continuité d'une entreprise — pour des années, souvent au-delà du mandat de ceux qui décident. Ce qui se joue n'est pas un poste à pourvoir, mais une trajectoire à sécuriser.</p>
+      <p>C'est pourquoi notre conseil commence par la question de gouvernance, non par la fiche de poste : la continuité de l'actionnariat, le risque de succession, l'intégrité d'une intention fondatrice, l'architecture de leadership qu'un moment stratégique exige. Cette question précède toujours le premier nom — et reste confidentielle dès le premier échange.</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHY ALIDES FRANCE -->
+<section class="why" id="why">
+  <div class="wrap">
+    <span class="label eyebrow">Pourquoi Alides en France</span>
+    <p class="lead">La France est un marché de <em>gouvernance</em>, non une simple géographie.</p>
+    <p class="intro">Conseils internationalisés, capital familial, fonds et institutions : les décisions de leadership s'y prennent dans un tissu relationnel exigeant, où la confidentialité et le jugement priment sur la diffusion.</p>
+    <div class="why-grid">
+      <div class="why-row"><span class="k">I</span><div><h3>Conseils internationalisés</h3><p>Des conseils français qui opèrent sur une scène mondiale, et attendent des dirigeants fluents dans les deux registres.</p></div></div>
+      <div class="why-row"><span class="k">II</span><div><h3>Capital familial &amp; patrimonial</h3><p>Groupes familiaux, holdings et family offices, où la continuité engage le patrimoine autant que la performance.</p></div></div>
+      <div class="why-row"><span class="k">III</span><div><h3>Fonds &amp; sociétés détenues</h3><p>Le leadership des participations et plateformes d'investissement, en lien avec la thèse et l'horizon de l'actionnaire.</p></div></div>
+      <div class="why-row"><span class="k">IV</span><div><h3>Un marché senior, relationnel</h3><p>Les nominations sensibles se traitent en confidence, par approche directe, jamais par diffusion d'une liste.</p></div></div>
+    </div>
+    <div class="why-base">
+      <div class="item"><div class="t">Réseau</div><p>Membre d'ECI Group, avec une portée sur l'Europe, l'Afrique et le Moyen-Orient lorsqu'un mandat l'exige.</p></div>
+      <div class="item"><div class="t">Discipline</div><p>Membre de l'AESC. Recherche par mandat, exclusive, menée personnellement par un associé.</p></div>
+      <div class="item"><div class="t">Tenue</div><p>Confidentialité au cœur du mandat, et une lecture indépendante que le conseil peut assumer.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONVICTION -->
+<section class="conviction">
+  <div class="wrap">
+    <span class="label eyebrow">Notre conviction</span>
+    <p class="statement">Un dirigeant ne se réduit pas à un parcours. Le leadership est un <em>système</em> — et il se transmet.</p>
+    <div class="three">
+      <div><span class="n">I</span><h3>Le leadership est un système</h3><p>Un dirigeant n'agit jamais seul. Il s'inscrit dans un conseil, une équipe, une culture, un actionnariat, un moment. Évaluer un leader, c'est lire ce système — non aligner des compétences sur une fiche.</p></div>
+      <div><span class="n">II</span><h3>La succession se prépare avant l'urgence</h3><p>Ce qui se transmet — l'intention du fondateur, la mémoire d'une maison — se prépare en amont, et se perd par négligence silencieuse. La meilleure succession n'est jamais une réaction.</p></div>
+      <div><span class="n">III</span><h3>Le jugement prime sur la vitesse</h3><p>Un mandat exclusif ne récompense pas la rapidité, mais la justesse. Nous sommes engagés pour parvenir à une décision qu'un conseil peut défendre — et assumer dix ans.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SITUATIONS -->
+<section class="situations" id="situations">
+  <div class="wrap">
+    <span class="label eyebrow">Situations critiques</span>
+    <p class="lead">Nous sommes appelés quand une décision <em>ne se délègue pas</em>.</p>
+    <p class="intro">Les moments où le choix d'un dirigeant, ou la forme d'un conseil, porte une conséquence durable — et exige une lecture indépendante.</p>
+    <div class="sit-list">
+      <div class="sit-row"><h3>Nominations sensibles de dirigeants</h3><p>CEO, directeur général, CFO, CHRO, COO : des nominations exposées, où l'erreur de casting au sommet se paie cher et longtemps.</p></div>
+      <div class="sit-row"><h3>Succession &amp; continuité actionnariale</h3><p>Transitions de direction préparées, transmission entre générations, continuité d'une intention fondatrice.</p></div>
+      <div class="sit-row"><h3>Composition &amp; efficacité des conseils</h3><p>Recherche d'administrateurs indépendants, équilibre des compétences, et revue de la capacité collective d'un conseil.</p></div>
+      <div class="sit-row"><h3>Gouvernance des entreprises familiales</h3><p>Professionnalisation, structuration des comités, et arbitrage entre famille, propriété et direction.</p></div>
+      <div class="sit-row"><h3>Recomposition de comité exécutif</h3><p>Aligner une équipe dirigeante sur une stratégie, une transformation ou un changement d'actionnariat.</p></div>
+      <div class="sit-row"><h3>Advisory Boards &amp; leadership en transformation</h3><p>Constituer un conseil consultatif, ou sécuriser le leadership d'une organisation en transformation profonde.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- METHOD -->
+<section class="method" id="method">
+  <div class="wrap">
+    <span class="label eyebrow">La méthode</span>
+    <p class="lead">Une séquence rigoureuse, menée <em>personnellement</em>.</p>
+    <p class="intro">Conçue pour parvenir à une décision documentée, défendable et confidentielle — non à la présentation la plus rapide.</p>
+    <div class="m-step"><span class="num">01</span><div><h3>Décoder le contexte de gouvernance</h3><p>L'actionnariat, le conseil, le moment stratégique. Nous lisons les vrais termes de la décision avant qu'aucun nom ne soit considéré.</p></div></div>
+    <div class="m-step"><span class="num">02</span><div><h3>Définir l'architecture de leadership</h3><p>Non une fiche de poste, mais la compétence, l'autorité et l'intention que la situation exige réellement.</p></div></div>
+    <div class="m-step"><span class="num">03</span><div><h3>Cartographier le marché pertinent</h3><p>Une recherche originale du marché tel qu'il est, et non d'une base de données — approchée en confidentialité, jamais diffusée.</p></div></div>
+    <div class="m-step"><span class="num">04</span><div><h3>Évaluer le jugement et l'adéquation</h3><p>Le tempérament, le jugement et l'adéquation au contexte — avec rigueur, sans extrapoler au-delà de ce que nous pouvons étayer.</p></div></div>
+    <div class="m-step"><span class="num">05</span><div><h3>Sécuriser la décision</h3><p>Calibrage avec le conseil, références rigoureuses, shortlist argumentée, conseil sur les conditions de la nomination.</p></div></div>
+    <div class="m-step"><span class="num">06</span><div><h3>Accompagner l'alignement</h3><p>Au-delà de la nomination : l'intégration et l'alignement du dirigeant avec son conseil et son équipe, pour que la décision tienne.</p></div></div>
+  </div>
+</section>
+
+<!-- OUTCOME -->
+<section class="outcome">
+  <div class="wrap">
+    <span class="label eyebrow">Ce que le conseil obtient</span>
+    <p class="lead">Une nomination que l'on peut <em>assumer dans la durée</em>.</p>
+    <div class="out-grid">
+      <div class="out"><span class="n">01</span><h3>Une décision documentée</h3><p>Un raisonnement écrit, traçable, qu'un conseil peut présenter et défendre.</p></div>
+      <div class="out"><span class="n">02</span><h3>Un marché réellement exploré</h3><p>Une cartographie originale, au-delà des candidats déjà connus ou disponibles.</p></div>
+      <div class="out"><span class="n">03</span><h3>Une shortlist argumentée</h3><p>Quelques profils évalués en profondeur, non une liste de noms introduits.</p></div>
+      <div class="out"><span class="n">04</span><h3>Un risque mieux maîtrisé</h3><p>L'erreur de casting au sommet réduite par une évaluation indépendante du jugement.</p></div>
+      <div class="out"><span class="n">05</span><h3>Une lecture indépendante</h3><p>Un regard extérieur, libre des dynamiques internes, sur le dirigeant et son système.</p></div>
+      <div class="out"><span class="n">06</span><h3>Une succession anticipée</h3><p>Une transition préparée en amont, plutôt qu'une crise à gérer dans l'urgence.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF -->
+<section class="proof" id="proof">
+  <div class="wrap">
+    <span class="label eyebrow">Quelques missions</span>
+    <p class="lead">La preuve se dit avec <em>retenue</em>.</p>
+    <p class="intro">Un aperçu, anonymisé par respect de la confidentialité due à nos clients, de contextes traités en France et à l'international.</p>
+    <div class="pf-list">
+      <div class="pf-row"><div class="meta">Groupe coté · Conseil</div><div class="desc"><h3>Renouvellement d'un conseil d'administration</h3><p>Aux côtés du président et du comité des nominations, cartographie confidentielle et approche d'administrateurs indépendants apportant des compétences clés — transformation, technologie, finance et risque — jusqu'à la cooptation.</p></div></div>
+      <div class="pf-row"><div class="meta">Institution financière · Gouvernance</div><div class="desc"><h3>Renforcement des fonctions de contrôle</h3><p>Conseil sur la composition d'un conseil et recherche de dirigeants de fonctions risque, conformité et contrôle, dans un environnement réglementaire exigeant.</p></div></div>
+      <div class="pf-row"><div class="meta">Acteur multi-sites · Direction</div><div class="desc"><h3>Recomposition d'une équipe de direction</h3><p>Dans une phase de transformation opérationnelle, accompagnement du dirigeant et du conseil sur plusieurs nominations du comité de direction, et sur la discipline de pilotage de la performance.</p></div></div>
+      <div class="pf-row"><div class="meta">Groupe industriel · Famille</div><div class="desc"><h3>Succession au sein d'un groupe familial</h3><p>Préparation et sécurisation d'une transition de direction entre deux générations d'actionnariat, dans le respect de l'intention fondatrice et de la continuité de la maison.</p></div></div>
+      <div class="pf-row"><div class="meta">Plateforme détenue par un fonds · Performance</div><div class="desc"><h3>Direction d'un périmètre en redressement</h3><p>Identification et évaluation d'un dirigeant pour un périmètre sous pression, avec mise en place d'une gouvernance de performance et d'une trajectoire d'exécution.</p></div></div>
+      <div class="pf-row"><div class="meta">Industrie de précision · Opérations</div><div class="desc"><h3>Direction d'un dispositif industriel multi-établissements</h3><p>Recherche d'un dirigeant industriel pour piloter plusieurs sites et conduire un plan d'amélioration de la productivité, dans un groupe à actionnariat financier.</p></div></div>
+      <div class="pf-row"><div class="meta">Industrie de process · Excellence opérationnelle</div><div class="desc"><h3>Pilotage de la performance industrielle</h3><p>Identification d'un responsable de l'excellence opérationnelle pour déployer une démarche d'amélioration continue à l'échelle d'un réseau d'usines international.</p></div></div>
+      <div class="pf-row"><div class="meta">Banque · Comité exécutif</div><div class="desc"><h3>Renforcement d'une équipe dirigeante</h3><p>Recherche de fonctions clés au sein du comité exécutif d'un établissement bancaire en changement de dimension.</p></div></div>
+    </div>
+    <p class="note">Missions anonymisées par respect de la confidentialité due à nos clients. Des références pertinentes peuvent être évoquées, sous réserve d'accord, lors d'un échange direct avec un associé.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="grid">
+      <div class="lhs">
+        <span class="label eyebrow">Un entretien</span>
+        <h2>Les décisions qui comptent <em>ne se précipitent pas</em>.</h2>
+        <p>Si votre conseil s'interroge sur une nomination sensible, une succession ou la composition de votre conseil, nous serions heureux d'en parler — en toute confidentialité, et sans engagement.</p>
+        <div class="channels">
+          <a href="#form" class="ch"><span>—</span>Évoquer une nomination sensible</a>
+          <a href="#form" class="ch"><span>—</span>Parler d'une succession</a>
+          <a href="#form" class="ch"><span>—</span>Demander un entretien avec un associé</a>
+        </div>
+        <div class="detail">
+          <a href="mailto:contact@eci-alides.com">contact@eci-alides.com</a><br>
+          <a href="tel:+33695390461">+33 6 95 39 04 61</a><br>
+          32 boulevard de Strasbourg · 75010 Paris<br>
+          Membre d'ECI Group · Membre de l'AESC<br>
+          <a href="https://qa.alides.org/">Alides Qatar — Doha</a>
+        </div>
+      </div>
+      <div class="rhs">
+        <form id="form" action="https://formspree.io/f/xkoknglg" method="POST">
+          <input type="hidden" name="_subject" value="Échange confidentiel — Alides France">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <label>Nom</label><input type="text" name="nom" autocomplete="name" required>
+          <label>Organisation &amp; fonction</label><input type="text" name="organisation" autocomplete="organization">
+          <label>Email</label><input type="email" name="email" autocomplete="email" required>
+          <label>Nature de la décision</label>
+          <select name="nature">
+            <option>Nomination sensible de dirigeant</option>
+            <option>Succession &amp; continuité</option>
+            <option>Composition d'un conseil</option>
+            <option>Gouvernance d'entreprise familiale</option>
+            <option>Recomposition de comité exécutif</option>
+            <option>Advisory Board</option>
+            <option>Sujet confidentiel</option>
+          </select>
+          <label>Votre message</label><textarea name="message"></textarea>
+          <button type="submit" class="send">Solliciter un échange confidentiel</button>
+          <p class="pnote">Toute demande est examinée directement par un associé, en stricte confidentialité.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <div class="brand-f">Alides</div>
+        <div class="addr">
+          Executive Search · Conseil aux Conseils<br>
+          32 boulevard de Strasbourg · 75010 Paris<br>
+          <a href="tel:+33695390461">+33 6 95 39 04 61</a><br>
+          <a href="mailto:contact@eci-alides.com">contact@eci-alides.com</a>
+        </div>
+      </div>
+      <div class="links">
+        <a href="https://qa.alides.org/">Alides Qatar</a><br>
+        <a href="https://eci-group.org/">ECI Group</a><br>
+        <a href="https://www.aesc.org/">AESC</a><br>
+        <a href="https://www.alides.org">Alides — Maroc &amp; Afrique</a><br>
+        <a href="https://www.linkedin.com/company/alides-executivesearch">LinkedIn</a>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>© 2026 Alides — Tous droits réservés</span>
+      <span>Membre d'ECI Group · Membre de l'AESC</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const hdr=document.getElementById('hdr');
+  const onScroll=()=>hdr.classList.toggle('scrolled',window.scrollY>40);
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+</script>
+</body>
+</html>
