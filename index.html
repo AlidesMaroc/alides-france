@@ -72,7 +72,7 @@
   .brand{font-family:'EB Garamond',serif;font-size:1.7rem;font-weight:500;letter-spacing:.04em;text-decoration:none;transition:color .3s}
   header:not(.scrolled) .brand{color:var(--ivory)}
   header.scrolled .brand{color:var(--ink)}
-  .menu{display:flex;gap:38px;align-items:center}
+  .menu{display:flex;gap:30px;align-items:center}
   .menu a{font-family:'Jost',sans-serif;font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;text-decoration:none;transition:color .25s;font-weight:300}
   header:not(.scrolled) .menu a{color:rgba(247,245,242,.8)}
   header.scrolled .menu a{color:var(--muted)}
@@ -160,6 +160,21 @@
   .m-step p{font-size:1.02rem;color:var(--muted);line-height:1.7}
 
   /* OUTCOME */
+  /* MODEL — proprietary evaluation framework, epure (no cards) */
+  .model{background:var(--paper)}
+  .model .lead{font-size:clamp(1.4rem,2.3vw,1.9rem);line-height:1.45;color:var(--navy);max-width:24ch;margin-bottom:18px}
+  .model .lead em{font-style:italic;color:var(--gold)}
+  .model .intro{font-size:1.08rem;color:var(--muted);max-width:58ch;margin-bottom:60px}
+  .dim-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 70px;border-top:1px solid var(--line)}
+  .dim{display:grid;grid-template-columns:34px 1fr;gap:22px;padding:26px 0;border-bottom:1px solid var(--line);align-items:baseline}
+  .dim .r{font-family:'Jost',sans-serif;font-size:.72rem;letter-spacing:.1em;color:var(--gold)}
+  .dim h3{font-size:1.12rem;color:var(--navy);font-weight:500;margin-bottom:5px}
+  .dim p{font-size:1rem;color:var(--muted);line-height:1.66}
+  .model .process{margin-top:62px;padding-top:42px;border-top:1px solid var(--line);display:grid;grid-template-columns:.34fr .66fr;gap:48px;align-items:start}
+  .model .process .pt{font-family:'Jost',sans-serif;font-size:.66rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+  .model .process p{font-size:1.06rem;color:var(--ink);line-height:1.75}
+  .model .process p .soft{color:var(--muted)}
+
   .outcome{background:var(--navy);color:var(--ivory)}
   .outcome .eyebrow{color:var(--gold-soft)}
   .outcome .lead{font-size:clamp(1.45rem,2.4vw,1.95rem);line-height:1.5;max-width:24ch;color:var(--ivory);margin-bottom:64px}
@@ -229,6 +244,8 @@
     .why-base{flex-direction:column;gap:30px}
     .conviction .three{grid-template-columns:1fr;gap:42px}
     .sit-row,.pf-row{grid-template-columns:1fr;gap:10px}
+    .dim-grid{grid-template-columns:1fr;gap:0}
+    .model .process{grid-template-columns:1fr;gap:14px}
     .m-step{grid-template-columns:44px 1fr;gap:20px}
     .out-grid{grid-template-columns:1fr}
     .contact .grid{grid-template-columns:1fr;gap:52px}
@@ -248,7 +265,9 @@
       <a href="#why">Pourquoi Alides</a>
       <a href="#situations">Situations</a>
       <a href="#method">La méthode</a>
+      <a href="#model">Évaluation</a>
       <a href="#proof">Missions</a>
+      <a href="https://revue.alides.org/">Perspectives</a>
       <a href="#contact" class="req">Échange confidentiel</a>
     </nav>
     <div class="burger"><span></span><span></span><span></span></div>
@@ -343,6 +362,28 @@
     <div class="m-step"><span class="num">04</span><div><h3>Évaluer le jugement et l'adéquation</h3><p>Le tempérament, le jugement et l'adéquation au contexte — avec rigueur, sans extrapoler au-delà de ce que nous pouvons étayer.</p></div></div>
     <div class="m-step"><span class="num">05</span><div><h3>Sécuriser la décision</h3><p>Calibrage avec le conseil, références rigoureuses, shortlist argumentée, conseil sur les conditions de la nomination.</p></div></div>
     <div class="m-step"><span class="num">06</span><div><h3>Accompagner l'alignement</h3><p>Au-delà de la nomination : l'intégration et l'alignement du dirigeant avec son conseil et son équipe, pour que la décision tienne.</p></div></div>
+  </div>
+</section>
+
+<!-- MODEL : proprietary leadership evaluation framework -->
+<section class="model" id="model">
+  <div class="wrap">
+    <span class="label eyebrow">Notre lecture du leadership</span>
+    <p class="lead">Évaluer un dirigeant, ce n'est pas juger un passé. C'est mesurer une <em>adéquation</em>.</p>
+    <p class="intro">Nous lisons un dirigeant selon sept dimensions, non pour établir un palmarès, mais pour apprécier sa capacité à réussir dans un contexte précis — celui de votre conseil, de votre actionnariat et de votre moment stratégique.</p>
+    <div class="dim-grid">
+      <div class="dim"><span class="r">I</span><div><h3>Vision stratégique</h3><p>Lire les tendances, anticiper les ruptures, tracer une direction claire. Sans vision, un dirigeant gère ; il ne conduit pas.</p></div></div>
+      <div class="dim"><span class="r">II</span><div><h3>Exécution &amp; résultats</h3><p>Transformer la stratégie en résultats mesurables. Le dirigeant est le garant ultime de la création de valeur durable.</p></div></div>
+      <div class="dim"><span class="r">III</span><div><h3>Leadership d'équipe</h3><p>Attirer, développer et inspirer. La qualité d'un dirigeant se mesure à celle de l'équipe qu'il sait réunir.</p></div></div>
+      <div class="dim"><span class="r">IV</span><div><h3>Gouvernance &amp; influence</h3><p>Collaborer avec le conseil et conduire des parties prenantes complexes, au service de l'organisation.</p></div></div>
+      <div class="dim"><span class="r">V</span><div><h3>Intelligence culturelle</h3><p>Comprendre les dynamiques internes, respecter les héritages, conduire le changement avec discernement.</p></div></div>
+      <div class="dim"><span class="r">VI</span><div><h3>Résilience &amp; caractère</h3><p>Tenir face à la pression et à l'incertitude, avec intégrité et calme. Le caractère est la dernière ligne de défense.</p></div></div>
+      <div class="dim"><span class="r">VII</span><div><h3>Alignement contextuel</h3><p>Apprécier le fit entre le dirigeant et la phase de l'entreprise, sa culture et ses enjeux. C'est là que se joue la réussite d'une nomination.</p></div></div>
+    </div>
+    <div class="process">
+      <span class="pt">Un processus structuré</span>
+      <p>L'évaluation se conduit en profondeur : <span class="soft">entretiens structurés, mise en situation contextualisée, assessment indépendant, vérifications croisées et prises de références.</span> Elle aboutit à une lecture argumentée par dimension — forces, zones de vigilance et degré d'adéquation au contexte de gouvernance — qu'un conseil peut assumer.</p>
+    </div>
   </div>
 </section>
 
@@ -443,11 +484,12 @@
         </div>
       </div>
       <div class="links">
+        <a href="https://revue.alides.org/">Perspectives</a><br>
         <a href="https://qa.alides.org/">Alides Qatar</a><br>
-        <a href="https://eci-group.org/">ECI Group</a><br>
-        <a href="https://www.aesc.org/">AESC</a><br>
         <a href="https://www.alides.org">Alides — Maroc &amp; Afrique</a><br>
-        <a href="https://www.linkedin.com/company/alides-executivesearch">LinkedIn</a>
+        <a href="https://eci-group.org/">ECI Group</a><br>
+        <a href="https://www.linkedin.com/company/alides-executivesearch">LinkedIn</a><br>
+        <a href="https://www.aesc.org/">AESC</a>
       </div>
     </div>
     <div class="foot-base">
